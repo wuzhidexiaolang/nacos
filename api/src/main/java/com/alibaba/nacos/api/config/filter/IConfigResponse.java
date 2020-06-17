@@ -29,13 +29,13 @@ public interface IConfigResponse {
 	 *            key
 	 * @return value
 	 */
-	public Object getParameter(String key);
+	Object getParameter(String key);
 
 	/**
 	 * get context
 	 * 
 	 * @return configContext
 	 */
-	public IConfigContext getConfigContext();
+	IConfigContext getConfigContext();
 
 }
